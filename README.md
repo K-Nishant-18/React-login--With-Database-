@@ -1,7 +1,7 @@
 
 # Simple Login & Signup App
 
-A simple full-stack web app for user login and signup, built with React (Vite) and Spring Boot, using MySQL for storage.
+A simple full-stack web app for user login and signup, built with React (Vite) and Spring Boot, using MySQL for storage (Also with MongoDB Atlas).
 
 ---
 
