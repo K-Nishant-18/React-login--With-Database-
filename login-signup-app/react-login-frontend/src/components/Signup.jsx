@@ -15,7 +15,7 @@ function Signup() {
     e.preventDefault(); // Prevent the default form submission behavior
     try {
       // Send a POST request to the registration API with the username, password, and email
-      const response = await axios.post('yamabiko.proxy.rlwy.net:32627', {
+      const response = await axios.post('http://localhost:8080/api/auth/register', {
         username,
         password,
         email
