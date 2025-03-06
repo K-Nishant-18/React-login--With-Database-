@@ -15,7 +15,7 @@ function Login() {
     e.preventDefault(); // Prevent the default form submission behavior
     try {
       // Send a POST request to the login API with the username and password
-      const response = await axios.post('yamabiko.proxy.rlwy.net:32627', {
+      const response = await axios.post('http://localhost:8080/api/auth/login', {
         username,
         password
       });
